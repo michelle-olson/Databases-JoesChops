@@ -1,0 +1,107 @@
+body{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background: url(car_background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.login{
+  width: 320px;
+  height: 420px;
+  background: #000;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding: 70px 30px;
+}
+.user{
+  padding: : 0;
+  margin: 0;
+  width: 100px;
+  height: 88px;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+h1{
+  padding: 0 0 10px;
+  margin: 0;
+  text-align: center;
+  font-size: 15px;
+}
+h2{
+  padding: 0 0 20px;
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
+}
+.login p{
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+.login input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.login input[type="text"], input[type="password"]{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: : none;
+  height: 40px;
+  color: #fff;
+  font-size: : 16px;
+}
+.login input[type="button"]{
+  border: : none;
+  outline: none;
+  height: 30px;
+  background: #436bde;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.login input[type="button"]:hover{
+  cursor: pointer;
+  background: green;
+  color: #000;
+}
+.login a{
+  text-decoration: : none;
+  font-size: 15px;
+  line-height: 30px;
+  color: darkgray;
+}
+.login a:hover{
+  color: #436bde;
+}
+h3{
+  padding: 0 0 20px;
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
+  color: #FFFFFF
+}
+.plan input[type="button"]{
+  border: : none;
+  outline: none;
+  height: 30px;
+  background: #436bde;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.plan input[type="button"]:hover{
+  cursor: pointer;
+  background: green;
+  color: #000;
+}
